@@ -1,0 +1,30 @@
+spring:
+  profiles.active: local
+---
+spring:
+  profiles: default
+  datasource:
+    driverClassName: oracle.jdbc.driver.OracleDriver
+  jpa:
+    database-platform: org.hibernate.dialect.OracleDialect
+    javax.persistence.validation.mode: none
+    hibernate.hbm2ddl.auto: validate
+---
+spring:
+  profiles: local
+  datasource:
+    url: jdbc:oracle:thin:@foo:1621/bar
+    username: foo
+    password: bar
+
+server:
+  port: 8099
+---
+spring:
+  profiles: cloud
+datasource:
+  service-name: dummy
+  min-pool: 10
+  max-pool: 20
+  max-wait-time: -1
+---
