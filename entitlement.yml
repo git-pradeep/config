@@ -23,7 +23,7 @@ server:
 spring:
   profiles: cloud
 datasource:
-  service-name: dummy
+  service-name: dummyupdated
   min-pool: 10
   max-pool: 20
   max-wait-time: -1
