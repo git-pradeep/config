@@ -18,7 +18,7 @@ spring:
     password: bar
 
 password: helloworld!!
-foo: barupdated!!!!
+foo: bar!!!!
 timeout: 2000
 
 server:
