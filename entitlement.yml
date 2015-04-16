@@ -21,7 +21,7 @@ spring:
 password: helloworld!!
 foo: bar!!!!
 just: inserted!!!
-timeout: 3500
+timeout: 5000
 new: one
 
 server:
