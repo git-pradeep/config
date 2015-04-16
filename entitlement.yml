@@ -20,8 +20,9 @@ spring:
 
 password: helloworld!!
 foo: bar!!!!
-just: updated!!!
-timeout: 3000
+just: inserted!!!
+timeout: 3500
+new: one
 
 server:
   port: 8099
